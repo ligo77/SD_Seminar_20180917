@@ -58,6 +58,11 @@ page 123456710 "CSD Seminar Registration"
                 {
                 }
             }
+            part(SeminarRegistrationLines; "CSD Seminar Reg. Subpage")
+            {
+                Caption = 'Lines';
+                SubPageLink = "Document No." = field ("No.");
+            }
             group("Seminar Room")
             {
                 field("Room Code"; "Room Code")
